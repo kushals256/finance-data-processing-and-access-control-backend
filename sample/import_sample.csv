@@ -1,0 +1,14 @@
+amount,type,category,date,description,notes
+1500.00,income,Salary,2025-01-15,Monthly salary payment,January payroll
+250.75,expense,Food & Dining,2025-01-16,Grocery shopping at supermarket,Weekly groceries
+3500.00,income,Freelance,2025-01-20,Web development project completion,Client: TechCorp
+89.99,expense,Entertainment,2025-01-22,Netflix and Spotify subscriptions,Monthly subscription
+45.50,expense,Transportation,2025-01-25,Uber rides for the week,Business travel
+120.00,expense,Utilities,2025-02-01,Electricity bill,February billing cycle
+2000.00,income,Rental Income,2025-02-05,Apartment rental payment,Tenant: Unit 4B
+350.00,expense,Healthcare,2025-02-10,Annual dental checkup,Dr. Smith
+75.50,expense,Shopping,2025-02-14,Valentine's Day gifts,Gift shopping
+4500.00,income,Investments,2025-02-20,Stock dividend payout,Q4 dividends
+invalid_amount,expense,Food,2025-03-01,This row has invalid amount,Should fail validation
+500.00,invalid_type,Shopping,2025-03-05,This row has invalid type,Should fail validation
+200.00,expense,,2025-03-10,This row has empty category,Should fail validation
